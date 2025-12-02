@@ -1,0 +1,49 @@
+baseURL = 'https://homebodypractice.com/'
+languageCode = 'en-us'
+title = 'Homebody Practice'
+theme = 'homebody'
+
+[params]
+  tagline = "Rooted in connection — meditation for real life."
+  description = "Homebody is a space for remembering connection — to yourself, your breath, and the quiet thread that runs through even the busiest days."
+
+  # Homepage Hero Section
+  [params.hero]
+    image = "hero-image.jpg"  # Place your image in themes/homebody/static/images/
+    headline = "Welcome to Homebody Practice"
+    subheadline = "Meditation for real life"
+    description = "A space for remembering connection — to yourself, your breath, and the quiet thread that runs through even the busiest days."
+
+  # Homepage About Section
+  [params.about]
+    headline = "About"
+    content = "Content coming soon. This is where we'll share more about the practice and approach."
+
+  # Homepage Offerings Section
+  [params.offerings]
+    headline = "Offerings"
+    intro = "Grounded practices for everyday life."
+    description = "Explore offerings designed to help you reconnect with yourself and find calm in the midst of life's rhythms."
+
+  # Homepage CTA Section
+  [params.cta]
+    headline = "Let's Connect"
+    content = "Interested in learning more or working together? I'd love to hear from you."
+    button_text = "Get in Touch"
+    button_link = "mailto:hello@homebodypractice.com"
+
+# Main menu
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.main]]
+  name = "Offerings"
+  url = "/offerings/"
+  weight = 3

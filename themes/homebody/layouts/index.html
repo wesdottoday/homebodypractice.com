@@ -1,0 +1,49 @@
+{{ define "main" }}
+
+<!-- Hero Section - Full viewport with configurable image -->
+<section class="hero{{ if .Site.Params.hero.image }} has-image{{ end }}">
+    {{ if .Site.Params.hero.image }}
+    <img src="/images/{{ .Site.Params.hero.image }}" alt="{{ .Site.Params.hero.headline }}" class="hero-image">
+    <div class="hero-overlay"></div>
+    {{ end }}
+    <div class="hero-content">
+        <h1>{{ .Site.Params.hero.headline }}</h1>
+        <p class="subheadline">{{ .Site.Params.hero.subheadline }}</p>
+        <p>{{ .Site.Params.hero.description }}</p>
+    </div>
+</section>
+
+<!-- About Section - inspired by Mary Beth's welcome section -->
+<section class="content-section section-alt">
+    <div class="container">
+        <div class="about-layout">
+            <div class="about-content">
+                <h2>{{ .Site.Params.about.headline }}</h2>
+                <p>{{ .Site.Params.about.content }}</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Offerings Section -->
+<section class="content-section">
+    <div class="container">
+        <h2>{{ .Site.Params.offerings.headline }}</h2>
+        <p class="section-intro">{{ .Site.Params.offerings.intro }}</p>
+        <p class="section-intro">{{ .Site.Params.offerings.description }}</p>
+        <div class="offerings-cta">
+            <a href="/offerings/" class="btn btn-secondary">View All Offerings</a>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section - inspired by newsletter signups on both sites -->
+<section class="cta-section">
+    <div class="container">
+        <h2>{{ .Site.Params.cta.headline }}</h2>
+        <p>{{ .Site.Params.cta.content }}</p>
+        <a href="{{ .Site.Params.cta.button_link }}" class="btn">{{ .Site.Params.cta.button_text }}</a>
+    </div>
+</section>
+
+{{ end }}
