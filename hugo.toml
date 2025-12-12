@@ -18,10 +18,11 @@ theme = 'homebody'
   [params.about]
     headline = "About"
     content = """
-Homebody Practice is a place to reconnect – to your breath, to your body, and to the quiet thread that runs through even the busiest days.
+Hi, I’m Melissa, a meditation teacher and the heart behind Homebody Practice.
 
+I believe meditation doesn’t have to look a certain way to be meaningful. My approach is relational and real, grounded in conversation, shaped by curiosity, and rooted in the understanding that connection is always available, even when we forget.
 
-Each session offers a simple, relational way to practice meditation, rooted in presence. It's an approach that includes conversation, guided meditation, reflection, and gentle rhythms you can carry into daily life.
+Melissa's sessions, whether one-on-one or in community, Melissa uses breath and guided imagery to help you remember your capacity for self-connection. She believes meditation is an invitation to rediscover that you already carry what you need.
 """
 
   # Homepage Offerings Section
